@@ -1,24 +1,25 @@
 # Vision_Subject_MingyuOh
 ## 📙목차
 - 📺 [실행 파일 경로](#-실행-파일-경로)
-- 📝 [Logger concept](#-로그-컨셉)
+- 📝 [Logger concept](#-Logger-concept)
 
 
 ## 📺 실행 파일 경로
 실행 파일은 "EXE.zip"에 존재합니다.
 - 압축 파일 내부
-1. Include(lib 및 dll 헤더 파일)
-2. Images(개발 시 사용했던 테스트 이미지)
-3. x64(실행 파일 경로)
-   3-1. Release
-      3-1-1. Setting 폴더 -> Setting.ini - 폴더 내의 설정 파일(이미지 파일 경로, 커널 크기, 결과 이미지 저장 경로)
-         (* 실행 파일 실행 시, 이미지 파일 경로는 수정되어야 합니다.)
-      3-1-2. Opencv.dll, Custom.dll, ImageObjectLib.lib - 라이브러리
-      3-1-3. result.csv - 성능 비교 테스트 리포트
-      3-1-4. image_blur.log - 로그 파일
-3-2. Debug
-      3-2-#. Release와 동일합니다.
-
+<pre>
+   1. Include(lib 및 dll 헤더 파일)
+   2. Images(개발 시 사용했던 테스트 이미지)
+   3. x64(실행 파일 경로)
+      3-1. Release
+         3-1-1. Setting 폴더 -> Setting.ini - 폴더 내의 설정 파일(이미지 파일 경로, 커널 크기, 결과 이미지 저장 경로)
+                  (* 실행 파일 실행 시, 이미지 파일 경로는 수정되어야 합니다.)
+         3-1-2. Opencv.dll, Custom.dll, ImageObjectLib.lib - 라이브러리
+         3-1-3. result.csv - 성능 비교 테스트 리포트
+         3-1-4. image_blur.log - 로그 파일
+      3-2. Debug
+         3-2-#. Release와 동일합니다.
+</pre>
 
 ## 📝 Logger concept
 > - 데이터 구조:    
