@@ -7,8 +7,8 @@
 ## 📺 실행 파일 경로
 실행 파일은 "EXE.zip"에 존재합니다.
 - 압축 파일 내부
-  1. Include(lib 및 dll 헤더 파일)
-&emsp;2. Images(개발 시 사용했던 테스트 이미지)
+> &emsp;1. Include(lib 및 dll 헤더 파일)
+> &emsp;2. Images(개발 시 사용했던 테스트 이미지)
 &emsp;3. x64(실행 파일 경로)
 &emsp;&emsp;3-1. Release
 &emsp;&emsp;&emsp;3-1-1. Setting 폴더 -> Setting.ini - 폴더 내의 설정 파일(이미지 파일 경로, 커널 크기, 결과 이미지 저장 경로)
