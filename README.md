@@ -22,10 +22,10 @@
 
 ## 📝 Logger concept
 > - 데이터 구조:    
-> <br>&emsp;버퍼는 std::vector<std::pair<std::atomic<bool>, LogData>> 형태로 구현되어 있으며,
-> <br>&emsp;버퍼의 Key는 자료형 std::atomic<bool>을 사용하여 원자성을 보장하고, 스레드 안전하게 구성되어 있습니다. 
-> <br>&emsp;버퍼 접근 시에는 읽기 인덱스(Read Index)와 쓰기 인덱스(Write Index)를 분리하여, 인덱스에 대한 동시 접근을 방지합니다.
-> <br>&emsp;Consumer 스레드를 별도로 생성하여 로그 데이터를 파일로 기록합니다.
+>&emsp;버퍼는 std::vector<std::pair<std::atomic<bool>, LogData>> 형태로 구현되어 있으며,
+><br>&emsp;버퍼의 Key는 자료형 std::atomic<bool>을 사용하여 원자성을 보장하고, 스레드 안전하게 구성되어 있습니다. 
+><br>&emsp;버퍼 접근 시에는 읽기 인덱스(Read Index)와 쓰기 인덱스(Write Index)를 분리하여, 인덱스에 대한 동시 접근을 방지합니다.
+><br>&emsp;Consumer 스레드를 별도로 생성하여 로그 데이터를 파일로 기록합니다.
 
 
 > - 동작 방식:
