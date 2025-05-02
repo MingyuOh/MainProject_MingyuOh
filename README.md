@@ -7,7 +7,7 @@
 ## 📺 실행 파일 경로
 실행 파일은 "EXE.zip"에 존재합니다.
 - 압축 파일 내부
-&emsp;1. Include(lib 및 dll 헤더 파일)
+  1. Include(lib 및 dll 헤더 파일)
 &emsp;2. Images(개발 시 사용했던 테스트 이미지)
 &emsp;3. x64(실행 파일 경로)
 &emsp;&emsp;3-1. Release
