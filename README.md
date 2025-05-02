@@ -5,11 +5,6 @@
 
 
 ## 📺 실행 파일 경로
-1. Include
-2. Images
-3. x64(
-
-   3-1-1.
 실행 파일은 "EXE.zip"에 존재합니다.
 - 압축 파일 내부
 1. Include(lib 및 dll 헤더 파일)
